@@ -17,7 +17,7 @@ Underneath the `<repo>`, we list the `<channel>` for the build.
 #### Channels
 
 At a high-level, a channel is a place to store the outputs of a build. A product defines a set of channels
-that it produces outputs for, and then as builds are executed, the build outputs are put into one or more
+that it produces outputs for, and then as builds are executed the build outputs are put into one or more
 channels.
 
 Examples of channels using the `dotnet/corefx` repo:
@@ -48,7 +48,7 @@ release bits and continue to consume them even when "1.0.0" branches into a rele
 
 #### Build Pointers
 
-Each channel directory contains files about each build it wants to track. This can be referred to as "Build Pointers".
+Each channel directory contains files about each build it wants to track. These can be referred to as "Build Pointers".
 Typical builds that are tracked are:
 
 - Latest
